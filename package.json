@@ -4,19 +4,28 @@
   "description": "git&reginio&snmp&node test",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mio5601/GitStudy.git"
   },
   "keywords": [
-    "test"
+        "resin.io",
+        "webserver",
+        "nodejs",
+        "expressjs",
+        "net-snmp"
   ],
-  "author": "",
+  "author": "Liz Kim",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mio5601/GitStudy/issues"
   },
-  "homepage": "https://github.com/mio5601/GitStudy#readme"
+  "homepage": "https://github.com/mio5601/GitStudy#readme",
+  "dependencies": {
+    "express":"*",
+    "net-snmp":"*"
+  }
 }
